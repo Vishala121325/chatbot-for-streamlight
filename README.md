@@ -1,26 +1,48 @@
-## CHATBOT (GENAI)FOR STREAMLIT 
-----
--- Description: 
-Uses TextBlob to detect sentiment from user input and replies empathetically. Also a free-form 
-conversational AI assistant designed to respond to open-ended queries across any topic. It acts like a virtual 
-buddy, powered by Google’s Gemini, and doesn’t limit the subject matter. 
-----
-Features: 
-----
--- Technologies Used 
-• Python 
-• Streamlit 
-• Google Generative AI (Gemini) 
-• Adjusts response tone based on emotion 
-• Adds a layer of emotional intelligence 
-• Friendly interaction 
+# 🤖 CHATBOT (GenAI) for Streamlit
+
+An emotionally intelligent chatbot built with Streamlit that uses **TextBlob** for sentiment detection and **Google’s Gemini** for conversational AI. This virtual buddy offers friendly and empathetic interactions and is capable of discussing a wide range of topics without restriction.
+
 ---
--- Model Used: 
-• Pre-trained rule-based sentiment engine from TextBlob 
-• Gemini 1.5 Flash 
+
+## 📝 Features
+
+- 💬 Open-ended conversational AI
+- 🎭 Emotion-aware tone adjustments based on user sentiment
+- 🤝 Friendly and empathetic interactions
+- ⚡ Fast and responsive user experience
+
 ---
--- Performance: 
-• Polarity accuracy generally acceptable for basic conversation 
-• No numeric accuracy/recall calculated 
-• Chatbot Responsive and fast  
-----
+
+## 🧠 Technologies Used
+
+- **Python**
+- **Streamlit**
+- **Google Generative AI (Gemini 1.5 Flash)**
+- **TextBlob** for sentiment analysis
+
+---
+
+## 🧰 Models Used
+
+- **Sentiment Detection:**  
+  Pre-trained rule-based sentiment engine from **TextBlob** to analyze polarity and subjectivity.
+
+- **Conversational Intelligence:**  
+  **Gemini 1.5 Flash**, a cutting-edge model by Google, enables fluid and natural dialogue across any topic.
+
+---
+
+## 🚀 Performance
+
+- ⚡ Responsive and fast chatbot experience
+- ✅ Acceptable polarity detection for general conversation
+- 📊 No formal metrics (accuracy/recall) calculated
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/chatbot-genai-streamlit.git
+cd chatbot-genai-streamlit
+pip install -r requirements.txt
